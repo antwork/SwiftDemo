@@ -11,7 +11,7 @@
 		D5B4D5E025CBA2110033ADB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B4D5DF25CBA2110033ADB5 /* Assets.xcassets */; };
 		D5B4D5E325CBA2110033ADB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B4D5E125CBA2110033ADB5 /* MainMenu.xib */; };
 		D5B4D5EE25CBA2280033ADB5 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4D5ED25CBA2280033ADB5 /* Wrapper.swift */; };
-		D5B4D5F125CBA40A0033ADB5 /* weakunknowned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4D5F025CBA40A0033ADB5 /* weakunknowned.swift */; };
+		D5B4D6BF25CBEE8E0033ADB5 /* weakunknowned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4D6BE25CBEE8E0033ADB5 /* weakunknowned.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		D5B4D5E425CBA2110033ADB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B4D5E525CBA2110033ADB5 /* SwiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDemo.entitlements; sourceTree = "<group>"; };
 		D5B4D5ED25CBA2280033ADB5 /* Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
-		D5B4D5F025CBA40A0033ADB5 /* weakunknowned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = weakunknowned.swift; path = ../../../weakunknowned.swift; sourceTree = "<group>"; };
+		D5B4D6BE25CBEE8E0033ADB5 /* weakunknowned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weakunknowned.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				D5B4D5ED25CBA2280033ADB5 /* Wrapper.swift */,
-				D5B4D5F025CBA40A0033ADB5 /* weakunknowned.swift */,
+				D5B4D6BE25CBEE8E0033ADB5 /* weakunknowned.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B4D5F125CBA40A0033ADB5 /* weakunknowned.swift in Sources */,
+				D5B4D6BF25CBEE8E0033ADB5 /* weakunknowned.swift in Sources */,
 				D5B4D5DE25CBA20F0033ADB5 /* AppDelegate.swift in Sources */,
 				D5B4D5EE25CBA2280033ADB5 /* Wrapper.swift in Sources */,
 			);
