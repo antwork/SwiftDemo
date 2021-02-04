@@ -11,13 +11,20 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
+    
+    var weakDemo1: WeakUnownedDemo?
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
         // 测试Wrapper
-        let wrapper = WrapperDemo()
-        wrapper.run()
+//        let wrapper = WrapperDemo()
+//        wrapper.run()
+        
+        // 测试weak unknowned
+        let demo = WeakUnownedDemo()
+        demo.run()
+        weakDemo1 = demo
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
